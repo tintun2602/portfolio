@@ -1,0 +1,237 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hero-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.hero-container header {
+  font-family: "Roboto", sans-serif;
+  font-size: 5rem;
+  color: #39ff14;
+}
+
+.hero-container p {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+#icon {
+  margin: 2rem 2rem;
+  padding: 1.5rem;
+  font-size: 2rem;
+  flex-direction: column;
+  cursor: pointer;
+  text-decoration: none;
+  color: #39ff14;
+}
+
+#icon a {
+  color: #39ff14;
+  text-decoration: none;
+  list-style: none;
+}
+
+section {
+  width: 100%;
+  height: 70vh;
+  background-color: black;
+}
+
+.first-leg,
+.second-leg {
+  height: 65vh;
+  width: 100%;
+  margin: 0;
+}
+
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.work-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.edu-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+#bi {
+  color: white;
+  background-color: black;
+}
+
+#oslomet {
+  color: white;
+  background-color: black;
+}
+
+.box {
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 1rem;
+  padding: 4rem 4rem;
+  width: 33%;
+  height: 40vh;
+}
+
+.box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.box-x {
+  flex-basis: 50%;
+  padding: 4rem;
+}
+
+.box-x h1,
+p,
+h3 {
+  margin: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.box-x li {
+  margin: 0rem 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.box-x img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#pakkhuset {
+  color: rgb(22, 97, 22);
+  font-family: "Oswald", sans-serif;
+  padding: 1rem;
+  font-size: 5rem;
+  box-shadow: 1px 1px;
+  height: 100%;
+  width: 100%;
+}
+
+#jcp {
+  padding: 2rem;
+  box-shadow: 1px 1px;
+  color: greenyellow;
+}
+
+#tomra {
+  padding: 2rem;
+  box-shadow: 1px 1px;
+  color: lightblue;
+}
+
+#leos {
+  padding: 2rem;
+  box-shadow: 1px 1px;
+  color: yellow;
+}
+
+#concept {
+  padding: 2rem;
+  box-shadow: 1px 1px;
+  color: orange;
+}
+
+#nordea {
+  padding: 2rem;
+  box-shadow: 1px 1px;
+  color: navy;
+}
+
+#highlight {
+  color: #39ff14;
+}
+
+.skills-container {
+  width: 100%;
+  height: 100%;
+}
+
+.skills-container h1 {
+  display: flex;
+  margin: 0rem 4rem;
+  color: #39ff14;
+  font-family: "Roboto", sans-serif;
+  font-size: 5rem;
+}
+
+.skills-container h2 {
+  display: flex;
+  margin: 2rem 4rem;
+  color: #39ff14;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+.line {
+  width: 50%;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  border: 1px solid #39ff14;
+}
+
+.skills {
+  display: flex;
+  margin: 0rem 2rem;
+  width: 5rem;
+  height: 5rem;
+}
+
+.skills img {
+  margin: 0rem 2rem;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.skills img:hover {
+  transition: all ease-out 0.5s;
+  opacity: 0.5;
+}
+
+address {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin: 4rem 4rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+address a {
+  color: #39ff14;
+  text-decoration: none;
+  list-style: none;
+}
